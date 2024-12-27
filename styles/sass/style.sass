@@ -1,0 +1,1322 @@
+@font-face
+  font-family: 'Heebo'
+  src: url('../../fonts/Heebo-Light.woff2') format("woff2")
+  font-weight: 300
+  font-style: normal
+  font-display: swap
+
+@font-face
+  font-family: 'Heebo'
+  src: url('../../fonts/Heebo-Bold.woff2') format("woff2")
+  font-weight: 700
+  font-style: normal
+  font-display: swap
+
+@font-face
+  font-family: 'Yantramanav'
+  src: url('../../fonts/Yantramanav-Bold.woff2') format("woff2")
+  font-weight: 700
+  font-style: normal
+  font-display: swap
+
+*
+  box-sizing: border-box
+
+  &::before, &::after
+    box-sizing: border-box
+
+  margin: 0
+
+img
+  display: block
+  max-width: 100%
+
+.main, .footer, .join-us, .family, .calculate, .location
+  max-width: 1920px
+
+.container
+  max-width: calc(1300px + 15px * 2)
+  margin-inline: auto
+  padding-inline: 15px
+
+.header-logo-image
+  width: 100%
+  max-width: 135px
+  height: auto
+
+.container-wide
+  max-width: 1920px
+  margin-inline: auto
+
+.content
+  max-width: 1920px
+  width: 100%
+  margin: 0 auto
+
+body
+  font-family: 'Heebo', sans-serif
+  font-weight: 300
+  font-size: 16px
+  line-height: 1.75
+  color: #C4C4C4
+  background-color: #000000
+
+.container
+  max-width: calc(1300px + 15px * 2)
+  margin-inline: auto
+  padding-inline: 15px
+
+h1, h2, h3, h4, h5, h6
+  font-weight: 700
+  text-transform: uppercase
+  color: #FFFFFF
+
+.header-menu-link_hover:hover
+  color: #b1500f
+
+.button
+  display: inline-flex
+  align-items: center
+  height: 38px
+  padding-inline: 23px
+  font-size: 12px
+  font-weight: 700
+  line-height: 2
+  letter-spacing: 1.2px
+  text-transform: uppercase
+  text-decoration: none
+  white-space: nowrap
+  background-color: #FFFFFF
+  border: none
+  border-radius: 30px
+
+.header-book-button a
+  color: #000
+  font-family: Heebo
+  font-size: 12px
+  font-style: normal
+  font-weight: 700
+  line-height: 24px
+  letter-spacing: 1.2px
+  text-transform: uppercase
+
+.header
+  display: flex
+  justify-content: space-between
+  align-items: center
+  column-gap: 20px
+  max-width: 1920px
+  width: 100%
+  min-height: 90px
+  padding: 0 32px
+  background-color: #131619
+
+.header-actions
+  padding-right: 6px
+
+.header-menu-list
+  max-width: 520px
+  display: flex
+  column-gap: 50px
+
+.item1
+  padding-left: 17px
+
+.item3
+  padding-left: 10px
+
+.item4, .item5
+  padding-left: 11px
+
+a
+  color: #FFF
+
+  &:hover
+    color: #b1500f
+
+.header-menu-link
+  display: inline-flex
+  align-items: center
+  height: 90px
+  column-gap: 7px
+  text-decoration: none
+  text-transform: uppercase
+  color: #FFF
+  font-family: Heebo
+  font-size: 12px
+  font-style: normal
+  font-weight: 700
+  line-height: 18px
+  letter-spacing: 1.2px
+  text-transform: uppercase
+
+ul
+  list-style-type: none
+
+.header-menu-link.tochka::after
+  content: ""
+  width: 5px
+  aspect-ratio: 1
+  background-color: currentColor
+  border-radius: 50%
+
+.header-actions
+  display: flex
+  column-gap: 39px
+
+.header-burger-button
+  display: inline-flex
+  flex-direction: column
+  justify-content: center
+  row-gap: 4px
+  width: 40px
+  padding-left: 8px
+  color: #FFFFFF
+  background-color: transparent
+  border-radius: 100%
+
+.banner
+  display: flex
+  flex-direction: column
+  justify-content: end
+  max-width: 985px
+  max-width: 1920px
+  padding: 36px 70px
+  color: #FFFFFF
+  background-color: #131619
+  padding-bottom: 58px
+
+.banner-body
+  text-transform: uppercase
+
+.banner-info
+  display: flex
+  align-items: end
+  font-size: 30px
+  line-height: 1.27
+  font-weight: 700
+
+.strelca
+  padding-left: 51px
+  padding-top: 9px
+
+.banner-info::before
+  content: ''
+  width: 194px
+  aspect-ratio: 1
+  margin-right: 30px
+  background: url('../../icons/bold-arrow-down-right.svg') (center / contain) no-repeat
+
+.banner-title
+  font-size: 20vw
+  line-height: 1
+
+.motivation-list
+  padding: 0
+
+.motivation
+  max-width: 1920px
+  box-sizing: border-box
+
+.motivation-item
+  padding: 2px
+
+  &:nth-child(even)
+    background-color: #131619
+
+.motivation-list
+  max-width: 1920px
+  margin: 0
+
+.motivation-item:nth-child(even) .motivation-card
+  flex-direction: row-reverse
+
+.motivation-card
+  display: flex
+  justify-content: start
+  align-items: center
+  column-gap: 200px
+
+.motivation-card-image
+  margin-block: -65px
+
+.motivation-card-body
+  padding: 65px 7px 31px 35px
+
+.motivation-card-title:not(:last-child)
+  margin-bottom: 14px
+  color: #FFF
+  font-family: Heebo
+  font-size: 40px
+  font-style: normal
+  font-weight: 700
+  line-height: 52px
+  text-transform: uppercase
+
+.motivation-card-description
+  max-width: 400px
+  color: #C4C4C4
+  font-family: Heebo
+  font-size: 16px
+  font-style: normal
+  font-weight: 300
+  line-height: 28px
+  letter-spacing: 0.8px
+
+  &:not(:last-child)
+    margin-bottom: 37px
+
+.training-types
+  max-width: 1920px
+  position: relative
+  background-color: #000000
+  display: flex
+  padding: 139px 0px 142px 0px
+  align-items: center
+  justify-content: center
+
+.training-types-list
+  display: flex
+  justify-content: center
+  align-items: flex-start
+  gap: 100px
+  height: auto
+
+.training-types-item
+  display: flex
+  flex-direction: column
+  row-gap: 32px
+  padding-top: 10px
+  align-items: center
+
+.training-types-item-title
+  font-size: 16px
+
+.backdrop-title
+  position: relative
+  z-index: 2
+
+  &::before
+    content: ''
+    display: block
+    position: absolute
+    right: calc(100% + 8px)
+    width: 32px
+    aspect-ratio: 1
+    background: url('../../icons/plus.svg') (center / contain) no-repeat
+
+  &::after
+    content: attr(data-title)
+    position: absolute
+    z-index: -1
+    top: -0.36em
+    left: -0.62em
+    font-family: 'Yantramanav', sans-serif
+    font-size: 2.8em
+    line-height: 1
+    color: transparent
+    -webkit-text-stroke: 1px #C4C4C4
+
+  &.centered::after
+    top: -0.25em
+    left: 50%
+    translate: -50% 0
+    text-align: center
+    -webkit-text-stroke: 1px #C4C4C4
+    font-family: Yantramanav
+    font-size: 113px
+    font-style: normal
+    font-weight: 700
+    line-height: 106px
+    text-transform: uppercase
+
+.button
+  display: inline-flex
+  align-items: center
+  height: 38px
+  font-size: 12px
+  font-weight: 700
+  line-height: 2
+  letter-spacing: 1.2px
+  text-transform: uppercase
+  text-decoration: none
+  white-space: nowrap
+  background-color: #FFFFFF
+  border: none
+  border-radius: 30px
+
+  &:hover
+    color: #b1500f
+
+  &.transparent
+    position: relative
+    height: 54px
+    padding-left: 31px
+    padding-right: 80px
+    color: #FFFFFF
+    background-color: transparent
+    border: 1px solid #FFFFFF
+
+    &::after
+      content: ''
+      position: absolute
+      right: 0
+      height: 100%
+      aspect-ratio: 1
+      background: url('../../icons/arrow-top-right.svg') (center / 70%) no-repeat
+      border: 1px solid #FFFFFF
+      border-radius: 50%
+
+.contacts__map
+  width: 100%
+  height: 600px
+
+.button.transparent:hover
+  color: #000000
+  background-color: #C4C4C4
+
+.input
+  max-width: 620px
+  height: 54px
+  padding-inline: 25px
+  color: #FFFFFF
+  background-color: transparent
+  border: 1px solid #C4C4C4
+  border-radius: 30px
+  color: #C4C4C4
+  font-family: Heebo
+  font-size: 16px
+  font-style: normal
+  font-weight: 300
+  line-height: normal
+  letter-spacing: 0.8px
+
+  &::placeholder
+    color: #C4C4C4
+
+select.input:invalid
+  color: #C4C4C4
+
+.input
+  &:hover
+    border-color: #FFFFFF
+
+  &:focus
+    color: #000000
+    background-color: #C4C4C4
+    outline: none
+
+.family-header .family-description
+  color: #FFF
+  text-align: center
+  font-family: Heebo
+  font-size: 20px
+  font-style: normal
+  font-weight: 300
+  line-height: 33px
+  text-transform: uppercase
+  padding-top: 6px
+
+.image-placeholder
+  width: 100%
+  max-width: 960px
+  height: auto
+
+.join-us
+  background-color: #131619
+
+.join-wrapper
+  position: relative
+  display: flex
+  justify-content: center
+  align-items: center
+  padding: 150px 30px
+  background: url('../../images/join-us-bg.jpg') (center / cover) no-repeat #131619
+
+.join-us-body
+  padding-bottom: 149px
+
+.join-us-form-header h3
+  color: #FFF
+  text-align: center
+  font-family: Heebo
+  font-size: 60px
+  font-style: normal
+  font-weight: 700
+  line-height: 72px
+  text-transform: uppercase
+
+.join-us-title
+  position: relative
+  margin-top: -0.4em
+  font-size: 180px
+  line-height: 1
+  text-align: center
+
+  &::after
+    content: ''
+    display: inline-block
+    height: 0.7em
+    aspect-ratio: 1
+    margin-left: 0.14em
+    background: url('../../icons/bold-arrow-down-right.svg') (center / contain) no-repeat
+    scale: 1 -1
+
+  &:not(:last-child)
+    margin-bottom: 109px
+
+.join-us-form-header
+  display: flex
+  flex-direction: column
+  align-items: center
+  row-gap: 7px
+  padding-left: 41px
+
+  .section-description
+    color: #FFF
+    text-align: center
+    font-family: Heebo
+    font-size: 20px
+    font-style: normal
+    font-weight: 300
+    line-height: 33px
+    text-transform: uppercase
+    padding-top: 6px
+
+  &:not(:last-child)
+    margin-bottom: 49px
+
+.join-us-form-body
+  display: flex
+  justify-content: center
+  column-gap: 20px
+
+.join-us-form-input
+  max-width: 400px
+
+.location
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+  height: auto
+
+.location-body
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  padding: 96px 0px 96px 42px
+  text-align: center
+  height: auto
+
+.location-title:not(:last-child)
+  margin-bottom: 14px
+  color: #FFF
+  text-align: center
+  font-family: Heebo
+  font-size: 40px
+  font-style: normal
+  font-weight: 700
+  line-height: 52px
+  text-transform: uppercase
+
+.location-description
+  color: #C4C4C4
+  text-align: center
+  font-family: Heebo
+  font-size: 16px
+  font-style: normal
+  font-weight: 300
+  line-height: 28px
+  letter-spacing: 0.8px
+
+  &:not(:last-child)
+    margin-bottom: 37px
+
+.family
+  background-color: #131619
+
+.family-header
+  h2
+    color: #FFF
+    text-align: center
+    font-family: Heebo
+    font-size: 60px
+    font-style: normal
+    font-weight: 700
+    line-height: 72px
+    text-transform: uppercase
+
+  display: flex
+  flex-direction: column
+  align-items: center
+  row-gap: 7px
+  padding-top: 141px
+  padding-bottom: 81px
+  text-align: center
+  padding-left: 57px
+
+.family-body
+  height: auto
+  display: flex
+  justify-content: center
+  align-items: flex-start
+  column-gap: 113px
+  overflow: hidden
+
+  img
+    max-width: 100%
+    height: auto
+
+.family-image
+  scroll-snap-align: start
+
+.calculate
+  padding-block: 120px
+  background-color: #131619
+  padding-left: 41px
+
+.calculate-inner
+  display: flex
+  align-items: center
+  column-gap: 36px
+
+.calculate-body
+  flex-grow: 1
+  max-width: 1300px
+
+.calculate-title:not(:last-child)
+  margin-bottom: 16px
+  color: #FFF
+  font-family: Heebo
+  font-size: 40px
+  font-style: normal
+  font-weight: 700
+  line-height: 52px
+  text-transform: uppercase
+
+.calculate-description
+  max-width: 386px
+  color: #C4C4C4
+  font-family: Heebo
+  font-size: 16px
+  font-style: normal
+  font-weight: 300
+  line-height: 28px
+  letter-spacing: 0.8px
+
+  &:not(:last-child)
+    margin-bottom: 32px
+
+.calculate-form-body
+  display: grid
+  grid-template-columns: repeat(2, 627px)
+  gap: 18px
+
+  &:not(:last-child)
+    margin-bottom: 18px
+
+.calculate-input.wide
+  grid-column: -1 / 1
+
+.calculate-table
+  position: relative
+  border-collapse: collapse
+
+  \:is(td, th)
+    padding-right: 30px
+
+    &:not(:first-child)
+      padding-left: 30px
+
+    &:not(:last-child)
+      border-right: 1px solid #C4C4C4
+
+  tbody
+    td
+      border-top: 1px solid #C4C4C4
+
+    tr:last-child td:first-child
+      position: relative
+
+      &::after
+        content: ''
+        position: absolute
+        bottom: 0
+        right: 0
+        width: 70%
+        height: 1px
+        background-color: #C4C4C4
+
+  th
+    padding-block: 20px
+    text-align: left
+    text-transform: uppercase
+    color: #FFFFFF
+
+  td
+    padding-block: 14px
+
+  tfoot
+    color: #FFFFFF
+
+    td
+      padding-top: 33px
+      padding-bottom: 0
+
+.footer-main
+  padding-top: 103px
+  padding-left: 0
+  padding-bottom: 157px
+
+.footer-header, .footer-body
+  display: grid
+  column-gap: 27px
+  padding-top: 18px
+
+.footer-header
+  grid-template-columns: 270px 924.45px
+  gap: 60px
+  align-items: center
+
+  &:not(:last-child)
+    margin-bottom: 83px
+
+.footer-logo-image
+  height: auto
+
+.footer-description
+  text-align: left
+  color: #FFF
+  font-family: Heebo
+  font-size: 20px
+  font-style: normal
+  font-weight: 300
+  line-height: 33px
+  text-transform: uppercase
+
+  a
+    text-decoration: none
+
+.footer-body
+  grid-template-columns: repeat(4, 305px)
+
+.footer-column-title
+  font-size: 22px
+
+  &:not(:last-child)
+    margin-bottom: 11px
+
+.footer-schedule:not(:last-child)
+  margin-bottom: 13px
+
+.footer-address
+  font-style: normal
+
+  &:not(:last-child)
+    margin-bottom: 35px
+
+.footer-column-title.has-arrow::after
+  content: ''
+  display: inline-block
+  height: 0.74em
+  aspect-ratio: 1
+  margin-left: 0.5em
+  background: url('../../icons/bold-arrow-down-right.svg') (center / contain) no-repeat
+  scale: -1 1
+
+.footer-subscribe
+  position: relative
+
+  &:not(:last-child)
+    margin-bottom: 50px
+
+.footer-subscribe-input
+  padding-right: 70px
+
+.footer-subscribe-button
+  position: absolute
+  top: 0
+  right: 0
+  height: 100%
+  aspect-ratio: 1
+  background: url('../../icons/arrow-top-right.svg') (center / 70%) no-repeat
+  border: 1px solid #FFFFFF
+  border-radius: 50%
+
+  &:hover
+    background-color: #C4C4C4
+
+.footer-soc1als-list
+  display: flex
+  column-gap: 17px
+  padding: 0
+
+.footer-soc1als-link
+  display: flex
+  width: 23px
+
+.footer-extra
+  padding-block: 15px
+  background-color: #131619
+
+.footer-copyright
+  color: #FFF
+  font-family: Heebo
+  font-size: 14px
+  font-style: normal
+  font-weight: 300
+  line-height: 28px
+  height: 21px
+
+.footer-contacts-list
+  padding: 0
+
+.footer-body input
+  width: 305px
+
+@media (max-width: 1440px)
+  .banner-info
+    &::before
+      width: 194px
+
+    font-size: 30px
+
+  .banner
+    max-height: 750px
+
+  .banner-title
+    font-size: 18vw
+
+  .motivation-card-title:not(:last-child)
+    font-size: 35px
+
+  .motivation-card-description p
+    font-size: 20px
+
+  .button.transparent
+    font-size: 18px
+
+  .training-types-item-title
+    font-size: 15px
+
+  .training-types-list
+    gap: 100px
+    flex-wrap: wrap
+    height: auto
+
+  .join-us-title
+    font-size: 180px
+
+  .join-us-form-header h3
+    font-size: 60px
+
+  .location-title:not(:last-child)
+    font-size: 30px
+
+  .location-description p
+    font-size: 20px
+
+  .location
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+
+  .calculate-title:not(:last-child)
+    font-size: 35px
+
+  .calculate-description p
+    font-size: 20px
+
+  .calculate-form-body
+    display: grid
+    grid-template-columns: repeat(2, 427px)
+    gap: 18px
+
+  .calculate
+    display: grid
+    align-items: center
+
+  .footer-header
+    grid-template-columns: 270px 600.45px
+    gap: 60px
+    align-items: center
+    justify-content: center
+
+  .footer-body
+    grid-template-columns: repeat(4, 255px)
+
+    input
+      width: 255px
+
+  .footer-main-inner
+    padding-left: 9vw
+
+  .footer-body
+    height: auto
+    display: flex
+    justify-content: center
+    align-items: flex-start
+    flex-wrap: wrap
+    gap: 114px
+
+  .backdrop-title.centered::after
+    font-size: 90px
+
+  .motivation-card-image
+    width: 40%
+    height: 36%
+
+  .motivation-card
+    padding-left: 10vw
+    column-gap: 140px
+    padding-top: 100px
+
+@media (max-width: 1024px)
+  .family-body
+    flex-wrap: wrap
+    gap: 50px
+
+  .location
+    height: auto
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+
+  .motivation-card
+    height: auto
+    display: flex
+    justify-content: center
+    align-items: flex-start
+    flex-wrap: wrap
+    gap: 50px
+
+  .header-menu-link
+    display: none
+
+  .banner-info::before
+    width: 150px
+
+  .backdrop-title::after
+    font-size: 1.6em
+
+  .banner-info
+    font-size: 30px
+
+  .banner-title
+    font-size: 17vw
+
+  .motivation-card-title:not(:last-child)
+    font-size: 52px
+
+  .motivation-card-description p
+    font-size: 22px
+
+  .motivation-card-image
+    width: 50%
+    height: 36%
+
+  .button.transparent
+    font-size: 20px
+
+  .training-types-item-title
+    font-size: 15px
+
+  .training-types-list
+    gap: 100px
+    flex-wrap: wrap
+    height: auto
+
+  .join-us-title
+    font-size: 180px
+
+  .join-us-form-header h3
+    font-size: 62px
+
+  .location-title:not(:last-child)
+    font-size: 52px
+
+  .location-description p
+    font-size: 22px
+
+  .calculate-title:not(:last-child)
+    font-size: 52px
+
+  .calculate-description p, .footer-body
+    font-size: 22px
+
+  .footer-about p
+    font-size: 18px
+
+  .footer-body
+    grid-template-columns: repeat(4, 310px)
+
+    input
+      width: 310px
+
+  .footer-header
+    height: auto
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-wrap: wrap
+    gap: 114px
+    justify-content: center
+
+  .footer-description
+    text-align: center
+
+  .calculate-form-body
+    display: grid
+    grid-template-columns: repeat(1, 427px)
+    gap: 18px
+
+@media (max-width: 768px)
+  .motivation-card-image
+    width: 60%
+    height: 36%
+
+  .header-book-button, .header-menu-link
+    display: none
+
+  .location
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+
+  .family-body
+    flex-wrap: wrap
+    gap: 50px
+
+  .join-us-form-body
+    height: auto
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    gap: 10px
+    padding-top: 10px
+    width: auto
+
+  .header-menu-link
+    font-size: 10px
+
+  .banner-info
+    &::before
+      width: 200px
+
+    font-size: 30px
+
+  .banner-title
+    font-size: 17vw
+
+  .motivation-card-title:not(:last-child)
+    font-size: 52px
+
+  .motivation-card-description p
+    font-size: 24px
+
+  .button.transparent, .training-types-item-title
+    font-size: 22px
+
+  .training-types-list
+    gap: 30px
+    flex-wrap: wrap
+    height: auto
+
+  .join-us-title
+    font-size: 15vw
+
+  .join-us-form-header h3
+    font-size: 6vw
+
+  .location-title:not(:last-child)
+    font-size: 54px
+
+  .location-description p
+    font-size: 24px
+
+  .calculate-title:not(:last-child)
+    font-size: 54px
+
+  .calculate-description p
+    font-size: 24px
+
+  .footer-body
+    font-size: 22px
+
+  .footer-about p
+    font-size: 20px
+
+  .footer-body
+    grid-template-columns: repeat(4, 310px)
+
+    input
+      width: 310px
+
+  .calculate-form-body
+    display: grid
+    grid-template-columns: repeat(1, 427px)
+    gap: 18px
+
+  .footer-header
+    height: auto
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-wrap: wrap
+    justify-content: center
+    gap: 114px
+
+  .footer-description
+    text-align: center
+
+  .header-menu-list
+    column-gap: 15px
+
+  .join-us-title
+    font-size: 15vw
+
+@media (max-width: 525px)
+  .motivation-card-image
+    width: 70%
+    height: 36%
+
+  .training-types-list
+    gap: 40px
+
+  .header-book-button, .header-menu-link
+    display: none
+
+  .location
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+
+  .family-body
+    flex-wrap: wrap
+    gap: 50px
+
+  .join-us-form-body
+    height: auto
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    gap: 10px
+    padding-top: 10px
+    width: auto
+
+  .header-menu-link
+    font-size: 10px
+
+  .banner-info
+    &::before
+      width: 200px
+
+    font-size: 15px
+
+  .strelca
+    padding-left: 10px
+
+  .banner-title
+    font-size: 17vw
+
+  .motivation-card-title:not(:last-child)
+    font-size: 25px
+
+  .backdrop-title::after
+    display: none
+
+  .motivation-card-description p
+    font-size: 24px
+
+  .button.transparent, .training-types-item-title
+    font-size: 22px
+
+  .join-us-title
+    font-size: 180px
+
+  .join-us-form-header h3
+    font-size: 64px
+
+  .location-title:not(:last-child)
+    font-size: 54px
+
+  .location-description p
+    font-size: 24px
+
+  .calculate-title:not(:last-child)
+    font-size: 45px
+
+  .calculate-description p
+    font-size: 14px
+
+  .footer-body
+    font-size: 22px
+
+  .footer-about p
+    font-size: 20px
+
+  .footer-body
+    grid-template-columns: repeat(4, 310px)
+
+    input
+      width: 310px
+
+  .footer-header
+    height: auto
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-wrap: wrap
+    gap: 114px
+
+  .footer-description
+    text-align: center
+
+  .join-us-title
+    font-size: 15vw
+
+  .motivation-card-image
+    width: 80%
+    height: 80%
+
+  .calculate-form-body
+    display: grid
+    grid-template-columns: repeat(1, 255px)
+    gap: 18px
+
+  .banner-info
+    padding-top: 126px
+
+  .header-menu-list
+    display: none
+
+  .footer-extra
+    padding-block: 35px
+
+@media (max-width: 325px)
+  .training-types-list
+    gap: 40px
+
+  .header-book-button, .header-menu-link
+    display: none
+
+  .location
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+
+  .family-body
+    flex-wrap: wrap
+    gap: 50px
+
+  .join-us-form-body
+    height: auto
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    gap: 10px
+    padding-top: 10px
+    width: auto
+
+  .header-menu-link
+    font-size: 10px
+
+  .banner
+    padding: 1px 34px
+    padding-bottom: 30px
+
+  .banner-info
+    &::before
+      width: 200px
+
+    font-size: 15px
+
+  .strelca
+    padding-left: 10px
+
+  .banner-title
+    font-size: 17vw
+
+  .motivation-card-title:not(:last-child)
+    font-size: 25px
+
+  .backdrop-title::after
+    display: none
+
+  .motivation-card-description p
+    font-size: 24px
+
+  .button.transparent
+    font-size: 14px
+
+  .training-types-item-title
+    font-size: 22px
+
+  .join-us-title
+    font-size: 180px
+
+  .join-us-form-header h3
+    font-size: 39px
+
+  .location-title:not(:last-child)
+    font-size: 54px
+
+  .location-description p
+    font-size: 24px
+
+  .calculate-title:not(:last-child)
+    font-size: 45px
+
+  .calculate-description p
+    font-size: 14px
+
+  .footer-body
+    font-size: 22px
+
+  .footer-about p
+    font-size: 20px
+
+  .footer-body
+    grid-template-columns: repeat(4, 310px)
+
+    input
+      width: 310px
+
+  .footer-header
+    height: auto
+    display: flex
+    justify-content: center
+    align-items: flex-start
+    flex-wrap: wrap
+    gap: 114px
+
+  .footer-description
+    text-align: center
+
+  .join-us-title
+    font-size: 15vw
+
+  .motivation-card-image
+    width: 80%
+    height: 80%
+
+  .calculate-form-body
+    display: grid
+    grid-template-columns: repeat(1, 210px)
+    gap: 18px
+
+  .banner-info
+    padding-top: 126px
+
+  .header-menu-list
+    display: none
+
+  .footer-body input
+    width: 260px
+
+  .footer-extra
+    padding-block: 35px
